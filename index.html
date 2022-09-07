@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <title>My ToDo List</title>
+  </head>
+  <body background="mypj0.jpg">
+    <h1>Prince's To-Do List</h1>
+    <div class="image-div">
+      <img
+        id="list-image"
+        src="https://th.bing.com/th/id/OIP.KrX2nSpBTxXcy0k3v_Ec0QAAAA?w=185&h=111&c=7&r=0&o=5&pid=1.7"
+      />
+    </div>
+
+    <p class="first">
+      The best way to make the most out of your DAY is to manage your TIME and
+      have a great PLAN.
+    </p>
+
+    <p class="second">Best Way To Remember Is To Write It Down😉.</p>
+
+    <form>
+      <div class="your-plans">
+        <h3>What's on your mind today?</h3>
+        <input type="text" placeholder="write..." id="text" />
+        <button type="submit" class="save-btn">SAVE!</button>
+      </div>
+      <div class="your-plans">
+        <h3>Navigate</h3>
+        <select name="list" class="filter">
+          <option value="ALL">ALL</option>
+          <option value="COMPLETED">COMPLETED</option>
+          <option value="PENDING">PENDING</option>
+        </select>
+        <input type="date" />
+        <input type="search" placeholder="search" class="text1" />
+      </div>
+    </form>
+    <div class="my-list">
+      <ul class="list">
+        <!-- <div class="todo-div">
+          <li class="todo-item">ehjie</li>
+          <button class="btn check">✅</button>
+          <button class="btn trash">🚮</button>
+        </div> -->
+      </ul>
+    </div>
+    <p class="last">
+      📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝📝
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
